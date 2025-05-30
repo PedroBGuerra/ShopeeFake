@@ -13,7 +13,10 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".MenuCards"
+            android:name=".MenuCardB"
+            android:exported="false" />
+        <activity
+            android:name=".MenuCardA"
             android:exported="false" />
         <activity
             android:name=".Login"
@@ -29,7 +32,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
