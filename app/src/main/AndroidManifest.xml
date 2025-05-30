@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".MenuCardF"
+            android:exported="false" />
+        <activity
+            android:name=".MenuCardE"
+            android:exported="false" />
+        <activity
             android:name=".MenuCardD"
             android:exported="false" />
         <activity
