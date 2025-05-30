@@ -10,5 +10,16 @@
     tools:context=".MenuCardA">
 
 
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/material"
+
 
 </com.google.android.material.card.MaterialCardView>
