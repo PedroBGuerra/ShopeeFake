@@ -11,15 +11,28 @@
 
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/material"
+            android:src="@drawable/material"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Kit Volta às aulas (Caderno, lapis de cor, 4 canetas, apontador, borracha,etc)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="R$: 125,00"/>
+
+    </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
